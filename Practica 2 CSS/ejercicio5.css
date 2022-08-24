@@ -1,0 +1,47 @@
+/*
+Ejercicio 5
+1)
+*/
+h1 b {color: red;}
+/*
+2)
+*/
+div p [href] {color: black;}
+/*
+3)  El texto de las listas no ordenadas que estén dentro del bloque 
+identificado como “ultimo” debe ser amarillo pero si es un enlace a otra página debe ser azul.
+*/
+
+div#ultimo ul{
+    color: yellow;
+}
+div#ultimo ul a{
+    color: blue;
+}
+
+/*
+4)
+*/
+div #importante {
+    color: green;
+}
+h1 #importante {
+    color: red;
+}
+/*
+5)
+*/
+ h1 [title]{
+    color: blue;
+}
+/*
+6)
+*/
+ol a:link {
+    color: blue;
+    text-decoration: none;
+}
+ol a:visited { 
+    color: purple;
+    text-decoration: none;
+}
